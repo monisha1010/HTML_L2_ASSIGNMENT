@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="HTML_L2.css">
+<script src="HTML_L2.js"></script>
+</head>
+<body onload="getLocation()">
+<div>
+<svg id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+   <circle cx="100" cy="150" r="70" stroke="black" stroke-width="2" fill="yellow" />
+   Sorry, your browser does not support inline SVG.
+</svg>
+
+<svg id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+   <circle cx="100" cy="150" r="70" stroke="black" stroke-width="2" fill="green" />
+   Sorry, your browser does not support inline SVG.
+</svg> 
+</div>
+<br><br><br>
+<img id="drag1" src="download.jpg" draggable="true" ondragstart="drag(event)">
+<img id="drag2" src="download1.jpg" draggable="true" ondragstart="drag(event)">
+<br>
+<div id="result"></div>
+<script>
+</body>
+</html>
